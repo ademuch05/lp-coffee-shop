@@ -58,7 +58,7 @@ const Thumbnail = () => {
           <h1 className="-translate-x-1/2 absolute text-[20rem] z-30 font-display-2 tracking-tighter text-outline">COFFEE</h1>
         </div>
       </section>
-      {MENU.filter((menu) => visible === null || menu.code === visible).map((menu, index) => {
+      {MENU.filter((men) => visible === null || men.code === visible).map((menu, index) => {
         let handleClick = (code) => {
           setMenuActive(code === menuActive ? null : code);
           setVisible(code === visible ? null : code);
