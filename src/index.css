@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap");
+@import "tailwindcss";
+
+:root {
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #000;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-menu-1: #824e27;
+  --color-menu-2: #a17c60;
+  --color-menu-3: #3f4f44;
+  --color-menu-4: #cba35c;
+  --color-secondary: #eee3cb;
+  --font-display: "Jost", sans-serif;
+  --font-display-2: "Staatliches", sans-serif;
+}
+
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff;
+}
