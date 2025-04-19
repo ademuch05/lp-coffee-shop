@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap");
 @import "tailwindcss";
+@source inline("{hover:,}bg-{[#824e27],[#a17c60],[#3f4f44],[#cba35c]}");
 
 :root {
   font-family: "Jost", sans-serif;
@@ -29,4 +30,8 @@
 .text-outline {
   color: transparent;
   -webkit-text-stroke: 1px #ffffff;
+}
+
+.hover-thumb {
+  hover: ;
 }

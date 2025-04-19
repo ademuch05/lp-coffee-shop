@@ -11,6 +11,9 @@ export const MENU = [
     subname: "Americano",
     image: menu1,
     color: "menu-1",
+    bgcolor: "bg-menu-1",
+    hovercolor: "hover:bg-menu-1",
+    textcolor: "text-menu-1",
     description: "An Americano is a type of coffee made by adding hot water to a shot of espresso. It has a strong, bold flavor",
   },
   {
@@ -20,6 +23,9 @@ export const MENU = [
     subname: "Hot Cappucinno",
     image: menu2,
     color: "menu-2",
+    bgcolor: "bg-menu-2",
+    hovercolor: "hover:bg-menu-2",
+    textcolor: "text-menu-2",
     description: "A cappuccino is an elegant blend of rich espresso, velvety steamed milk, and a thick layer of frothy foam, served in a petite cup with a dusting of cocoa or cinnamon on top.",
   },
   {
@@ -29,6 +35,9 @@ export const MENU = [
     subname: "Cold Brew",
     image: menu3,
     color: "menu-3",
+    bgcolor: "bg-menu-3",
+    hovercolor: "hover:bg-menu-3",
+    textcolor: "text-menu-3",
     description: "Cold brew coffee is a smooth,Served over ice with a hint of sweetness, it’s the perfect chill companion for a sunlit morning",
   },
   {
@@ -38,6 +47,9 @@ export const MENU = [
     subname: "Choco",
     image: menu4,
     color: "menu-4",
+    bgcolor: "bg-menu-4",
+    hovercolor: "hover:bg-menu-4",
+    textcolor: "text-menu-4",
     description: "Hot chocolate coffee blends the deep warmth of cocoa with a kick of espresso, served steaming in a rustic mug",
   },
 ];

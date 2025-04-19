@@ -64,7 +64,7 @@ const Thumbnail = () => {
           setVisible(code === visible ? null : code);
         };
         let isActive = menuActive === menu.code;
-        let menuScreen = isActive ? `w-screen bg-${menu.color}` : menuActive ? "" : `w-full hover:bg-${menu.color}`;
+        let menuScreen = isActive ? `w-screen ${menu.bgcolor}` : menuActive ? "" : `w-full hover:${menu.bgcolor}`;
         let isImage = isActive ? "w-96 opacity-100" : "w-96 opacity-0 -translate-y-16  group-hover:-translate-y-8 ";
         let isDesc = isActive ? "h-3/5" : "h-full group-hover:h-1/2";
         let isNum = isActive ? "h-0" : "h-1/4  group-hover:h-0";
@@ -77,7 +77,7 @@ const Thumbnail = () => {
             <img src={menu.image} alt="" className={`${isImage} z-20 m-auto group-hover:opacity-100 transition-all  duration-500`} />
             <div className={`${isDesc} absolute left-0 bottom-0 w-full flex flex-col p-5 justify-center  transition-all duration-500`}>
               <div className={`${isNum} transition-all  duration-500`}>
-                <h1 className={`${isHidden} text-6xl text-${menu.color} group-hover:opacity-0 transition-all duration-500`}>{menu.number}</h1>
+                <h1 className={`${isHidden} text-6xl ${menu.textcolor} group-hover:opacity-0 transition-all duration-500`}>{menu.number}</h1>
               </div>
               <div className={`${isTextColor} h-1/4 flex flex-col transition-[margin] duration-500`}>
                 <h1 className="text-3xl font-bold">{menu.name}</h1>
